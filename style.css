@@ -1,0 +1,287 @@
+*{
+    min-width: 300px;
+}
+body{
+    background-image: url(images/file_00000000f3ac61f697c50b9039d48564.png);
+    background-size: auto;
+    max-width: 1536px;
+    max-height: 1024px;
+    /* adds for button */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.6;
+   color: #333;
+   background-color: #f5f5f5;
+}
+
+.back_none{
+
+    background-image: none;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+ color: rgb(5, 58, 68);
+ 
+}
+
+/* Adds */
+
+h3{
+    font-size: 30px;
+
+}
+
+#topbar{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 95%;
+    margin-top:0;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* Two lines adds */
+    padding-left: 20px;      
+    padding-right: 20px;
+    text-decoration: underline;
+text-decoration-color: rgb(2, 33, 39);
+}
+#middlebar{
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/* for football page */
+#midlebar{
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #b5c7b7ab ;
+
+}
+
+
+.parag{
+    font-weight: 800;
+    margin-right: 405px;
+}
+#cl{
+    text-decoration: underline ;
+}
+#weights{
+    color: rgb(2, 33, 39);
+    list-style: circle;
+}
+
+
+#se{
+    padding-left: 25px;
+    font-size: 35px;
+}
+#ilia{
+width: 200px
+}
+/* #form{
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 410px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+} */
+.in{
+    background: transparent;
+    border: 2px solid rgb(2, 33, 39);
+    border-radius: 5px;
+    width: 80%;
+}
+#sub{
+    background-color: rgb(156, 8, 8);
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+}
+#end{
+    text-align: center;
+}
+.hor{
+    size: 4px;
+    background-color: rgb(156, 8, 8);
+}
+
+.fighters{
+    border:1px solid black;
+    border-radius: 5px;
+    width: 225px;
+    padding-left: 30px;
+}
+
+/* for football page */
+
+#para_foot{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* add for button */
+
+.btn {
+    display: inline-block;
+    background-color: #0ba6ecc2;
+    color: rgb(161 46 39);
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-left: 50px;
+    margin-top: 20px;
+    min-width: auto;
+ }
+
+user agent stylesheet
+a:-webkit-any-link {
+   color: -webkit-link;
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+a{
+    color: rgb(17, 158, 201);
+}
+/* ده اخر الزرار */
+
+/* for football page */
+
+.team{
+    font-size: 25px;
+    font-weight: 400;
+}
+/*  */
+/* ده علشان الفرق تبقى جنب بعد */
+div.scrollmenu {
+    background-color: #b5c7b7ab;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    div.scrollmenu div {
+        display: inline-block;
+        color: #3f0000;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+  
+  div.scrollmenu div:hover {
+    background-color: #777;
+  }
+    /* لحد هنا */
+
+  /* for football page */
+.clubs {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+    color: black;
+}
+
+/*football ده علشان بار اللى فوق في صفحة  */
+
+#top_image{
+    padding: 0 600px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #2b9546;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04aa6dbf;
+    color: white;
+  }
+  /* لحد هنا */
+
+  /* form login */
+.main {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-container label {
+        display: block;
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
